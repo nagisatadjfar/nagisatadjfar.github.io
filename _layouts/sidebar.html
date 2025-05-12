@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img src="/assets/img/profile_pic.jpg" alt="Profile picture" class="sidebar-pic">
+        <nav class="sidebar-nav">
+          <a href="/">ABOUT</a>
+          <a href="/research/">RESEARCH</a>
+          <a href="/assets/cv/assets/cv/cv.pdf">CV</a>
+        </nav>
+        <div class="sidebar-social">
+            {% include social.html %}
+          </div>
+      </aside>
+
+      <!-- Main content -->
+      <main class="content">
+        <div class="page-body">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
