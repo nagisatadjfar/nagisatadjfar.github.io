@@ -5,6 +5,8 @@ permalink: /
 
 ---
 
+<div class="about-wrapper">
+
 <div style="display: flex; flex-direction: column; justify-content: center; padding: 1rem; max-width: 100%; width: 100%; box-sizing: border-box; text-align: left;">
 
 
@@ -27,4 +29,5 @@ Before starting my PhD, I worked as an investment banking analyst at <a href="ht
 I like spending time outside &mdash; hiking, skiing, and diving &mdash; especially when it takes me somewhere new. I'm also a student representative on the <a href="https://facultygovernance.mit.edu/committee/committee-undergraduate-admissions-and-financial-aid" target="_blank">MIT Committee on Undergraduate Admissions and Financial Aid</a> and a resident advisor at  <a href="https://next.mit.edu" target="_blank">Next House</a>.
   </p>
 
+</div>
 </div>
