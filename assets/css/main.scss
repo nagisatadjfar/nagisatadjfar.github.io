@@ -155,10 +155,6 @@ $max-content-width: {{ site.max_width }};
     width: 100% !important;
     padding: 1rem !important;
   }
-  .about-wrapper {
-    justify-content: flex-start;
-    min-height: auto;
-  }
 
 }
 
@@ -201,3 +197,9 @@ html, body {
   min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+  .about-wrapper {
+    justify-content: flex-start;
+    min-height: auto;
+  }
+}
