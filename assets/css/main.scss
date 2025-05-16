@@ -151,9 +151,11 @@ $max-content-width: {{ site.max_width }};
   }
 
   .content {
-    margin-left: 0;
-    padding: 1.5rem;
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding: 1rem !important;
   }
+
 }
 
 .content {
@@ -182,4 +184,22 @@ $max-content-width: {{ site.max_width }};
 
 .sidebar-social a:hover {
   color: #ffffff; /* optional hover color */
+}
+
+html, body {
+  background-color: #e4e1e6;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .about-wrapper {
+    justify-content: flex-start;
+    min-height: auto;
+  }
 }
