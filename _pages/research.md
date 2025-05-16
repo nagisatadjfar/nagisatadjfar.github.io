@@ -65,7 +65,7 @@ We assess whether and why trade competition partly explains the sharp decline in
     document.querySelectorAll('details').forEach(function (el) {
       el.addEventListener('toggle', function () {
         if (el.open) {
-          const title = el.previousElementSibling?.innerText || 'Unnamed abstract';
+          const title = el.previousElementSibling ? el.previousElementSibling.innerText : 'Unnamed abstract';
           gtag('event', 'abstract_open', {
             event_category: 'Research',
             event_label: title.trim()
