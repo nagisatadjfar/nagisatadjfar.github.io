@@ -11,7 +11,13 @@
         <nav class="sidebar-nav">
           <a href="/">ABOUT</a>
           <a href="/research/">RESEARCH</a>
-          <a href="/assets/cv/assets/cv/cv.pdf">CV</a>
+          <a href="/assets/cv/assets/cv/cv.pdf"
+          onclick="gtag('event', 'click', {
+            event_category: 'Navigation',
+            event_label: 'CV Download'
+          });">
+          CV
+       </a>
         </nav>
         <div class="sidebar-social">
             {% include social.html %}

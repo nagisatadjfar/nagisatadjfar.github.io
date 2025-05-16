@@ -12,7 +12,15 @@ title: research
     (with <a href="https://nancywang3.github.io" target="_blank">Nancy Wang</a>)
   </div>
 
-  <a class="btn btn-sm btn-outline-primary" href="/assets/papers/Lowballing.pdf" target="_blank">PDF</a>
+  <a class="btn btn-sm btn-outline-primary" 
+     href="/assets/papers/Lowballing.pdf" 
+     target="_blank"
+     onclick="gtag('event', 'click', {
+       event_category: 'Research',
+       event_label: 'Firms Believing Women Get Less Means They Do'
+     });">
+     PDF
+  </a>
 </div>
 <details>
   <summary>Abstract</summary> 
@@ -49,3 +57,20 @@ Lower-income students apply to and attend elite universities at lower rates than
   <summary>Abstract</summary> 
 We assess whether and why trade competition partly explains the sharp decline in U.S. workers' attempts to organize labor unions in recent decades. We find that the swift rise of imports from China in the early 2000s led to substantially lower rates of union certification elections, both among workers in manufacturing industries directly exposed to imports and among workers indirectly exposed through their local labor market. Consistent with a simple model of workers' decision to seek union representation, direct exposure lowered the expected wage gain from unionization, whereas indirect exposure increased the cost of job loss, both of which discourage organizing.
 </details> 
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Track when any <details> is opened
+    document.querySelectorAll('details').forEach(function (el) {
+      el.addEventListener('toggle', function () {
+        if (el.open) {
+          const title = el.previousElementSibling?.innerText || 'Unnamed abstract';
+          gtag('event', 'abstract_open', {
+            event_category: 'Research',
+            event_label: title.trim()
+          });
+        }
+      });
+    });
+  });
+</script>
