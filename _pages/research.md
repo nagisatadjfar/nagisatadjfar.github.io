@@ -58,6 +58,7 @@ Lower-income students apply to and attend elite universities at lower rates than
 We assess whether and why trade competition partly explains the sharp decline in U.S. workers' attempts to organize labor unions in recent decades. We find that the swift rise of imports from China in the early 2000s led to substantially lower rates of union certification elections, both among workers in manufacturing industries directly exposed to imports and among workers indirectly exposed through their local labor market. Consistent with a simple model of workers' decision to seek union representation, direct exposure lowered the expected wage gain from unionization, whereas indirect exposure increased the cost of job loss, both of which discourage organizing.
 </details> 
 
+{% raw %}
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     // Track when any <details> is opened
@@ -74,3 +75,4 @@ We assess whether and why trade competition partly explains the sharp decline in
     });
   });
 </script>
+{% endraw %}
