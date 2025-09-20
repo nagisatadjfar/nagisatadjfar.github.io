@@ -52,7 +52,7 @@ _Draft coming soon_{:.paper-note}
 <br>
 ## Selected Works in Progress 
 <br>
-**Confidence in Ability on Job Search** \
+**Confidence in Ability and Job Search** \
 (with [Maxim Massenkoff](https://maximmassenkoff.com/) and [Nancy Wang](https://nancywang3.github.io))
 <details>
   <summary>Abstract</summary> 
