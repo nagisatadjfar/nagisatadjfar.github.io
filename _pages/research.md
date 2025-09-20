@@ -33,7 +33,6 @@ _Draft coming soon_{:.paper-note}
 <br>
 **[Firms Believing Women Get Less Means They Do](/assets/papers/Lowballing.pdf){:target="_blank" rel="noopener" .paper-title-link}** \
 (with [Nancy Wang](https://nancywang3.github.io))
-(with <a href="https://nancywang3.github.io" class="coauthor-link" data-paper="Firms Believing Women Get Less Means They Do" data-coauthor="Nancy Wang" target="_blank" rel="noopener">Nancy Wang</a>)
 
 <details data-title="Firms Believing Women Get Less Means They Do">
   <summary>Abstract</summary>
@@ -76,6 +75,72 @@ _Draft coming soon_{:.paper-note}
   <summary>Abstract</summary> 
   We assess whether and why trade competition partly explains the sharp decline in U.S. workers' attempts to organize labor unions in recent decades. We find that the swift rise of imports from China in the early 2000s led to substantially lower rates of union certification elections, both among workers in manufacturing industries directly exposed to imports and among workers indirectly exposed through their local labor market. Consistent with a simple model of workers' decision to seek union representation, direct exposure lowered the expected wage gain from unionization, whereas indirect exposure increased the cost of job loss, both of which discourage organizing.
 </details> 
+
+{% raw %}
+<script>
+  // Helper: safe gtag
+  function gaEvent(name, params){
+    if (typeof gtag === 'function') {
+      gtag('event', name, params || {});
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    /* 1) ABSTRACT OPENS (per-paper) */
+    document.querySelectorAll('details[data-title]').forEach(function (el) {
+      el.addEventListener('toggle', function () {
+        if (el.open) {
+          gaEvent('abstract_open', {
+            event_category: 'Research',
+            event_label: el.getAttribute('data-title')
+          });
+        }
+      });
+    });
+
+    /* 2) PDF CLICKS (per-paper) */
+    // Any link with class .paper-pdf and a data-title
+    document.body.addEventListener('click', function (e) {
+      const a = e.target.closest('a.paper-pdf');
+      if (a) {
+        gaEvent('pdf_click', {
+          event_category: 'Research',
+          event_label: a.getAttribute('data-title') || a.textContent.trim()
+        });
+      }
+    });
+
+    /* 3) COAUTHOR LINK CLICKS */
+    document.body.addEventListener('click', function (e) {
+      const a = e.target.closest('a.coauthor-link');
+      if (a) {
+        gaEvent('coauthor_click', {
+          event_category: 'Research',
+          event_label: (a.getAttribute('data-paper') || 'Unknown paper') + ' → ' +
+                       (a.getAttribute('data-coauthor') || a.textContent.trim())
+        });
+      }
+    });
+
+    /* (Nice-to-have) SCROLL DEPTH on this page */
+    const marks = [0.25, 0.5, 0.75, 1.0];
+    let fired = new Set();
+    function checkScrollDepth(){
+      const scrolled = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
+      marks.forEach(function (m) {
+        if (scrolled >= m && !fired.has(m)) {
+          fired.add(m);
+          gaEvent('scroll_depth', { event_category: 'Research', value: Math.round(m*100) });
+        }
+      });
+    }
+    document.addEventListener('scroll', checkScrollDepth, { passive: true });
+    window.addEventListener('load', checkScrollDepth);
+    window.addEventListener('resize', checkScrollDepth);
+  });
+</script>
+{% endraw %}
+
 
 {% raw %}
 <script>
