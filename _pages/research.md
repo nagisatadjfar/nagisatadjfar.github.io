@@ -23,7 +23,7 @@ title: research
 _Draft coming soon_{:.paper-note}
 {: .paper-block-md}
 
-<details>
+<details data-title="Prediction or Prejudice? Standardized testing and university access">
   <summary>Abstract</summary> 
   The use of screening algorithms such as standardized testing in university admissions is widely criticized for benefiting wealthy students and not accurately capturing the potential of low-income students. Does standardized testing inhibit opportunity? Our paper answers this question using a staggered elimination of pre-university testing requirements in favor of teacher-assigned grades in the UK. First, we find that low-income students become 3pp more likely to attend university, while enrollment among high-income students is unchanged. However, only 1 in 3 of these marginal students graduates on time. Despite this low graduation rate, students shifted into university see large private returns: they begin their careers at better firms and gain £50k&mdash;£100k in lifetime earnings, net of tuition fees. Second, we see upstream shifts beyond the university enrollment margin &mdash; affected low-income students are more likely to take academic-track subjects in high school and apply to university. Third, we show that standardized tests in our setting exhibit no calibration bias against low-income students, whereas teacher grades favor them. Taken together, our results indicate that switching from tests to teacher grades can expand opportunity for disadvantaged students even in the absence of calibration bias in tests. Our findings suggest that reducing testing barriers expanded educational investment earlier in the pipeline and delivered substantial long-run gains for marginal entrants.
 </details> 
@@ -33,8 +33,9 @@ _Draft coming soon_{:.paper-note}
 <br>
 **[Firms Believing Women Get Less Means They Do](/assets/papers/Lowballing.pdf){:target="_blank" rel="noopener" .paper-title-link}** \
 (with [Nancy Wang](https://nancywang3.github.io))
+(with <a href="https://nancywang3.github.io" class="coauthor-link" data-paper="Firms Believing Women Get Less Means They Do" data-coauthor="Nancy Wang" target="_blank" rel="noopener">Nancy Wang</a>)
 
-<details>
+<details data-title="Firms Believing Women Get Less Means They Do">
   <summary>Abstract</summary>
   This paper examines an employer-driven mechanism behind the early-career gender earnings gap using novel data on MIT graduates’ job offers and negotiation process. We document three key findings. First, women receive lower initial compensation offers than men within an employer-occupation. Second, this gap is entirely concentrated in non-salary components—signing bonus and equity—with no gap in base salary. Third, we find no gender differences in job search, and women negotiate as frequently and successfully as men. These findings also generalize to a national sample of high-skill workers in a dataset from Levels.fyi. To understand these patterns, we develop a model showing that a small number of discriminatory firms leads <em>all firms</em> in the market to lowball women in equilibrium. This market-wide gender gap is sustained through outside offers and cannot be closed by changes in worker behavior. We validate this mechanism using an incentivized resume evaluation experiment with recruiters, where we find that firms expect &mdash;other firms&mdash; to offer women less. Our results highlight the role of firm behavior—rather than worker decisions alone—in perpetuating gender pay disparities. 
 </details>
@@ -44,7 +45,7 @@ _Draft coming soon_{:.paper-note}
 
 _Draft coming soon_{:.paper-note}
 {: .paper-block-md}
-<details>
+<details data-title="Friends in Higher Places">
   <summary>Abstract</summary> 
   Elite university access in the UK remains highly unequal: low-income students are less likely to apply to and attend than equally qualified high-income peers, limiting access to elite careers. We show that this gap is partly due to perceptions of social fit, and that exposure to past attendees can close it. Using national administrative data, we exploit "breakthrough" events when a school first sends a student to a university, finding in an event study framework that applications from that school to that university subsequently rise by 30%. These marginal applicants are lower-income than the typical student at their university, graduate at typical rates, and earn £4,000 more annually than matched control students, indicating that access induced by exposure can promote upward mobility. To understand the mechanisms for exposure’s effects on applications, we conduct a field experiment in British schools. Randomly assigning students to view short videos of undergraduates discussing life at a university raises intended applications to that university. The treatment shifts students’ expectations of fitting in and making friends at the university, but not of admission or graduation, and does not provide students with durable connections to the attendees that they could make use of at university, isolating exposure’s effects on social confidence as a key mechanism. Our findings highlight perceptions of the social environment at top universities as a central barrier to access and illustrate that scalable exposure-based interventions can address this barrier.
 </details> 
