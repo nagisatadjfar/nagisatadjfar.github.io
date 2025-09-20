@@ -31,7 +31,7 @@ Before starting my PhD, I worked as an investment banking analyst at <a href="ht
   </p>
 
   <p>
-I'm also a resident advisor at  <a href="https://next.mit.edu" target="_blank">Next House</a> and I was a student representative on the <a href="https://facultygovernance.mit.edu/committee/committee-undergraduate-admissions-and-financial-aid" target="_blank">MIT Committee on Undergraduate Admissions and Financial Aid</a> between 2023-2025.
+I'm also a resident advisor at  <a href="https://next.mit.edu" target="_blank">Next House</a> and I was a student representative on the <a href="https://facultygovernance.mit.edu/committee/committee-undergraduate-admissions-and-financial-aid" target="_blank">MIT Committee on Undergraduate Admissions and Financial Aid</a> between 2022-2025.
   </p>
 
 
