@@ -13,6 +13,37 @@ title: research
   .paper-title { font-weight: 700; color: inherit; }
   .paper-coauthors { margin-top: 0.2rem; display: inline-block; }
   .paper-note { display: inline-block; margin-top: 0.2rem; font-style: italic}
+  /* Keep the slides icon small and inline */
+.slides-pill svg {
+  width: 1em !important;
+  height: 1em !important;
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+/* Force the pill’s text/icon color (prevents random reds) */
+.slides-pill {
+  color: #6f42c1 !important; /* pick your brand color */
+}
+.slides-pill:hover { color: #5e36a6 !important; }
+/* Put Abstract + Slides on one row */
+.paper-toggles {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex-wrap: wrap;     /* wraps on mobile */
+  margin-top: .35rem;
+}
+
+/* Ensure the <details> pill behaves inline */
+details.abstract-toggle {
+  display: inline-block;
+  margin: 0;           /* prevent line breaks from margins */
+}
+details.abstract-toggle > summary {
+  display: inline-flex; /* keep the pill inline */
+}
+
 </style>
 
 ## Job Market Paper 
@@ -46,7 +77,7 @@ _Draft coming soon_{:.paper-note}
 {: .paper-block-md}
 <details data-title="Friends in Higher Places">
   <summary>Abstract</summary> 
-  Elite university access is highly unequal. Low-income students are less likely to apply to and attend than equally qualified high-income peers. Using UK administrative data, we exploit “breakthrough” events when a school first sends a student to a top university. Applications from that school to that university subsequently rise by 30%. Students induced into elite universities by a breakthrough are lower-income, but graduate at typical rates. Access induced by breakthroughs promotes upward mobility: marginal entrants earn £4,000 more annually than matched control students. Why were these students not applying previously? Using a field experiment in British schools, we show that the primary barrier is students' beliefs about social fit at top universities rather than beliefs about admissions chances or success at university. At baseline, low-income students are more pessimistic about their chances of fitting in at an elite university, but not about their chances of admission or graduation. Students randomly assigned to view short videos of undergraduates discussing their experiences are 6 percentage points more likely to apply to the speaker's university. While students’ expectations of fitting in and making friends shift, beliefs about admission chances or graduation do not. Students randomly matched with mentors primarily discuss social life at university, and the most important factor participants raise with mentors is whether they would fit in and enjoy their time. Our findings highlight perceptions of the social environment at elite universities as a central barrier to access and illustrate that scalable interventions can address this barrier and promote social mobility. 
+  Elite university access is highly unequal. Low-income students are less likely to apply to and attend than equally qualified high-income peers. Using UK administrative data, we exploit “breakthrough” events when a school first sends a student to a top university. Applications from that school to that university subsequently rise by 30%. Students induced into elite universities by a breakthrough are lower-income, but graduate at typical rates. Access induced by breakthroughs promotes upward mobility: marginal entrants earn £4,000 more annually than matched control students. Why were these students not applying previously? Using a field experiment in British schools, we show that the primary barrier is students' beliefs about social fit at top universities rather than beliefs about admissions chances or success at university. At baseline, low-income students are more pessimistic about their chances of fitting in at an elite university, but not about their chances of admission or graduation. Students randomly assigned to view short videos of undergraduates discussing their experiences are 6 percentage points more likely to apply to the speaker's university. While students’ expectations of fitting in and making friends shift, beliefs about admission chances or graduation do not. Students randomly matched with mentors primarily discuss social life at university, and the most important factor participants raise with mentors is whether they would fit in and enjoy their time. Our findings highlight perceptions of the social environment at elite universities as a central barrier and illustrate how scalable interventions can promote social mobility. 
 </details> 
 
 <br>
@@ -61,15 +92,31 @@ _Draft coming soon_{:.paper-note}
 <br>
 **On One Condition: The Welfare Effects of Unraveling in the UK College Admissions System** \
 (with [Phi Adajar](https://padajar.com) and [Kartik Vira](https://economics.mit.edu/people/phd-students/kartikeya-vira))
+
+<div class="paper-toggles">
 <details>
   <summary>Abstract</summary> 
   The mid-2010s saw a rapid proliferation of offers to UK universities in which students were admitted regardless of their end-of-school test results, effectively shifting risk from students to universities. In this paper, we seek to understand the nature of this unraveling, with a focus towards universities’ incentives and the effects on students’ short- and long-term welfare using data from all UK college applications from 2012 to 2021. We find that these “unconditional offers” were given by lower-ranked universities and targeted towards higher-achieving students. Students with an unconditional offer are 4.5pp less likely to attend their top offer. This is consistent with students being shifted into lower-ranking universities and becoming “undermatched”. Simultaneously, college attendance increases; students with an unconditional offer are 12.4pp more likely to be matched to a college when compared to students with similar test scores and teacher evaluations. On the university side, these unconditional offers improve university yields and student composition, and correlational evidence shows that a university’s adoption of unconditional offers occurs in response to its competitors doing the same. We estimate a structural model of university offers to evaluate the nature of this competitive response and the implications for student welfare.
 </details> 
-<br>
 
+  <a class="slides-pill paper-slide"
+     href="https://raw.githubusercontent.com/<YOUR-USER>/<YOUR-REPO>/main/assets/papers/ATV_unravelling_slides.pdf"
+     target="_blank" rel="noopener"
+     data-title="Unravelling slides" aria-label="Open slides">
+    <!-- tiny slide icon -->
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-6l2.3 3.45a1 1 0 1 1-1.66 1.1L12 17.9l-1.64 2.65a1 1 0 0 1-1.66-1.1L11 16H5a2 2 0 0 1-2-2V5zm2 0v9h14V5H5zm2 2h7v2H7V7zm0 4h10v2H7v-2z"/>
+    </svg>
+    Slides
+  </a>
+</div>
+
+
+
+<br>
 ## Publications
 <br>
-**Trade Competition and the Decline in Union Organizing: Evidence from Certification Elections** \
+**[Trade Competition and the Decline in Union Organizing: Evidence from Certification Elections](https://www.journals.uchicago.edu/doi/10.1086/732302){:target="_blank" rel="noopener" .paper-title-link}** \
 (with [Kerwin K. Charles](https://faculty.som.yale.edu/kerwincharles/) and [Matthew S. Johnson](https://sites.google.com/site/mslaterjohnson/research)). <em>Forthcoming<em>, <strong>Journal of Labor Economics</strong>. 
 <details>
   <summary>Abstract</summary> 
