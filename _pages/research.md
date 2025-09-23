@@ -100,7 +100,7 @@ _Draft coming soon_{:.paper-note}
 </details> 
 
   <a class="slides-pill paper-slide"
-     href="https://raw.githubusercontent.com/<YOUR-USER>/<YOUR-REPO>/main/assets/papers/ATV_unravelling_slides.pdf"
+     href="/assets/papers/ATV_unravelling_slides.pdf"
      target="_blank" rel="noopener"
      data-title="Unravelling slides" aria-label="Open slides">
     <!-- tiny slide icon -->
