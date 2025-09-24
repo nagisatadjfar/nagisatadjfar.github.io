@@ -70,7 +70,7 @@ _Draft coming soon_{:.paper-note}
   This paper examines an employer-driven mechanism behind the early-career gender earnings gap using novel data on MIT graduates’ job offers and negotiation process. We document three key findings. First, women receive lower initial compensation offers than men within an employer-occupation. Second, this gap is entirely concentrated in non-salary components—signing bonus and equity—with no gap in base salary. Third, we find no gender differences in job search, and women negotiate as frequently and successfully as men. These findings also generalize to a national sample of high-skill workers in a dataset from Levels.fyi. To understand these patterns, we develop a model showing that a small number of discriminatory firms leads <em>all firms</em> in the market to lowball women in equilibrium. This market-wide gender gap is sustained through outside offers and cannot be closed by changes in worker behavior. We validate this mechanism using an incentivized resume evaluation experiment with recruiters, where we find that firms expect &mdash;other firms&mdash; to offer women less. Our results highlight the role of firm behavior—rather than worker decisions alone—in perpetuating gender pay disparities. 
 </details>
 <br>
-**Friends in Higher Places: Social fit and university choice** \
+**[Friends in Higher Places: Social fit and university choice](/assets/papers/TV_friends_higher_places.pdf){:target="_blank" rel="noopener" .paper-title-link}** \
 (with [Kartik Vira](https://economics.mit.edu/people/phd-students/kartikeya-vira))
 
 _Draft coming soon_{:.paper-note}
