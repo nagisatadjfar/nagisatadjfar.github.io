@@ -48,11 +48,8 @@ details.abstract-toggle > summary {
 
 ## Job Market Paper 
 <br>
-**Prediction or Prejudice? Standardized Testing and University Access** \
+**[Prediction or Prejudice? Standardized Testing and University Access](/assets/papers/jmp_latest.pdf){:target="_blank" rel="noopener" .paper-title-link}** \
 (with [Kartik Vira](https://www.kartikvira.com)) 
-
-_Draft coming soon_{:.paper-note}
-{: .paper-block-md}
 
 <details data-title="Prediction or Prejudice? Standardized Testing and University Access">
   <summary>Abstract</summary> 
