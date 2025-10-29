@@ -64,7 +64,7 @@ details.abstract-toggle > summary {
 
 <details data-title="Firms Believing Women Get Less Means They Do">
   <summary>Abstract</summary>
-  This paper examines an employer-driven mechanism behind the early-career gender earnings gap using novel data on MIT graduates’ job offers and negotiation process. We document three key findings. First, women receive lower initial compensation offers than men within an employer-occupation. Second, this gap is entirely concentrated in non-salary components—signing bonus and equity—with no gap in base salary. Third, we find no gender differences in job search, and women negotiate as frequently and successfully as men. These findings also generalize to a national sample of high-skill workers in a dataset from Levels.fyi. To understand these patterns, we develop a model showing that a small number of discriminatory firms leads <em>all firms</em> in the market to lowball women in equilibrium. This market-wide gender gap is sustained through outside offers and cannot be closed by changes in worker behavior. We validate this mechanism using an incentivized resume evaluation experiment with recruiters, where we find that firms expect &mdash;other firms&mdash; to offer women less. Our results highlight the role of firm behavior—rather than worker decisions alone—in perpetuating gender pay disparities. 
+  This paper examines an employer-driven mechanism behind the early-career gender earnings gap using novel data on MIT graduates’ job offers and negotiation process. We document three key findings. First, women receive lower initial compensation offers than men within an employer-occupation. Second, this gap is entirely concentrated in non-salary components—signing bonus and equity—with no gap in base salary. Third, we find no gender differences in job search, and women negotiate as frequently and successfully as men. These findings also generalize to a national sample of high-skill workers in a dataset from Levels.fyi. To understand these patterns, we develop a model showing that a small number of discriminatory firms leads <em>all firms</em> in the market to lowball women in equilibrium. This market-wide gender gap is sustained through outside offers and cannot be closed by changes in worker behavior. We validate this mechanism using an incentivized resume evaluation experiment with recruiters, where we find that firms expect <em>other firms</em> to offer women less. Our results highlight the role of firm behavior—rather than worker decisions alone—in perpetuating gender pay disparities. 
 </details>
 <br>
 **[Friends in Higher Places: Social fit and university choice](/assets/papers/TV_friends_higher_places.pdf){:target="_blank" rel="noopener" .paper-title-link}** \
@@ -80,10 +80,21 @@ Low-income students are less likely to attend elite universities than equally qu
 <br>
 **Confidence in Ability and Job Search** \
 (with [Maxim Massenkoff](https://maximmassenkoff.com/) and [Nancy Wang](https://nancywang3.github.io))
+<div class="paper-toggles">
 <details>
   <summary>Abstract</summary> 
  Can a credible ability signal to high-skill workers augment job search behavior and improve worker allocation across firms? We partner with a large online interviewing platform that screens workers for employers in the tech sector and identifies exceptional users as “one of the best-performing coders on the platform,” communicates this fact to the worker, and subsequently offers them access to interview with select firms. Using a fuzzy regression discontinuity design around the exogenous performance threshold used to identify these users, we find evidence of increased and more ambitious job search as a result of the signal. Workers just above the threshold are 20pp more likely to switch jobs within a year, with effects concentrated among workers with less than 5 years of experience. Workers from lower-ranked universities who did not previously work at an elite firm see improved labor market outcomes 2-5 years after first using the platform &mdash; these workers are 21pp more likely to work at an elite tech firm and work at companies with 12% higher expected compensation. We find that more than 85% of job switches occur off-platform, suggesting that access to interviews on the platform did not mediate these effects. Instead, our findings are consistent with increased and more ambitious worker search after receiving a credible signal about their ability, particularly among groups that were previously less likely to have considered these opportunities. Our next steps include generating measures of worker self-confidence from self-assessment and video recordings of interviews and characterizing worker-firm match quality.
 </details> 
+
+
+  <a class="slides-pill paper-slide"
+     href="/assets/papers/TW_confidence_slides.pdf"
+     target="_blank" rel="noopener"
+     data-title="Confidence slides" aria-label="Open slides">
+    [Slides]
+  </a>
+</div>
+
 <br>
 **No Strings Attached: The Distributional Effects of Unraveling in College Admissions** \
 (with [Phi Adajar](https://padajar.com) and [Kartik Vira](https://www.kartikvira.com))
@@ -98,15 +109,9 @@ Competition for talent can cause labor market unraveling, where institutions cre
      href="/assets/papers/ATV_unravelling_slides.pdf"
      target="_blank" rel="noopener"
      data-title="Unravelling slides" aria-label="Open slides">
-    <!-- tiny slide icon -->
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-6l2.3 3.45a1 1 0 1 1-1.66 1.1L12 17.9l-1.64 2.65a1 1 0 0 1-1.66-1.1L11 16H5a2 2 0 0 1-2-2V5zm2 0v9h14V5H5zm2 2h7v2H7V7zm0 4h10v2H7v-2z"/>
-    </svg>
-    Slides
+    [Slides]
   </a>
 </div>
-
-
 
 <br>
 ## Publications
